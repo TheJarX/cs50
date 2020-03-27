@@ -16,7 +16,7 @@ void pyramid(int height)
     // Control user input
     if (height <= 0 || height > 8) 
     {
-        printf("(!) Hight must be between 1 and 8\n");
+        printf("(!) Height must be between 1 and 8\n");
         pyramid(get_int("Height: "));
         exit(0);
     }
